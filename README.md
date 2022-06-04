@@ -14,6 +14,6 @@ To understand this better, lets say we made 10 shotgun tests trying to do a 1 hi
 ## Scope
 This project is intended to use the tools learned in class.
 * Functional Programming: Since this programming paradigm is often used for mathematical procedures, this is the perfect language to implement statistical functions 
-* Recursion: For this project we have a lot of base cases regarding damage fallof, so the use of recursive functions is going to be needed to calculate between iterations when the arquetype is changed
+* Recursion: For this project we have a lot of base cases regarding damage fallof, so the use of recursive functions is going to be needed to calculate between iterations when the arquetype is changed, for instance, we know about the high impact frames deal a 100% damage at 7m, and according to delevoler notes, this damage starts getting a fallof pasing those 7m, so we have our base case, having a 7m implicates 0% of damage fallof which will be increased passing thet milestone of 7m
 * Lists: This will be used for data storage and also iteration of data sets
-* File I/O: Format input is going to be implemented as a form with the desirable weapon so the code could read it and do the necessary calculations
+* File I/O: Format input is going to be implemented as a form with the desirable weapon so the code could read it and do the necessary calculations, this will be implemented via a csv file, similar to the images previously, indicating the shotgun name, the 4 desirable perks and  the selected masterwork, (for a better comprehension, please see the following and interactive example,https://d2gunsmith.com/w/631439337 )
