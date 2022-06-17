@@ -14,10 +14,12 @@ To understand this better, lets say we made 10 shotgun tests trying to do a 1 hi
 ## Scope
 This project is intended to use the tools learned in class.
 * Functional Programming: Since this programming paradigm is often used for mathematical procedures, this is the perfect language to implement statistical functions 
-* Recursion: This will be used in order to compute statistic formulas and list verification (e.g. iterate in all the elements of the list in order to determine if the input data is corrrect), also it will be used in order to compute list summations since we have to calculate the Standard Deviation, [as is mentioned in here ](https://www.calculator.net/standard-deviation-calculator.html?numberinputs=200%2C160&ctype=s&x=88&y=31)
+* Recursion: This will be used in order to compute statistic formulas and list verification (e.g. iterate in all the elements of the list in order to determine if the input data is corrrect), also it will be used in order to compute list summations since we have to calculate the Standard Deviation, [as mentioned in here ](https://www.calculator.net/standard-deviation-calculator.html?numberinputs=200%2C160&ctype=s&x=88&y=31)
 * Lists: This will be used for data storage and also iteration of data sets
 * File I/O: Format input is going to be implemented as a form with the desirable weapon so the code could read it and do the necessary calculations, this will be implemented via a csv file, similar to the images previously, indicating the shotgun name, the 4 desirable perks and  the selected masterwork, (for a better comprehension, please see the following and interactive example,https://d2gunsmith.com/w/631439337 )
 
+## How to use it
+To use this project you have to download the [Racket interpreter](https://download.racket-lang.org/) and install the csv-reading package listed below
 ## External sources
 [F-distribution](https://stattrek.com/probability-distributions/f-distribution)
 [CSV reader](https://docs.racket-lang.org/csv-reading/index.html)
